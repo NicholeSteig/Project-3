@@ -9,6 +9,10 @@ var userSchema = new Schema ({
         trim: true,
         minlength: 3
     },
+    password: {
+        type: String,
+        allownull: false
+    }
 }, {
     timestamps: true, 
 }); 
